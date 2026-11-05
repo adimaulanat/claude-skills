@@ -29,6 +29,16 @@ Read the project's instruction files (CLAUDE.md, AGENTS.md, README, docs). Note 
 
 A longer cut of the same video: reuse the full voice-over, add beats, repeat from step 5.
 
+## Porting your own finished video
+
+When the "reference" is your own finished video from another project, copy it into the target project and adapt, never import across projects.
+
+- Read the target project's files first (step 0). Replace the old closing with the target's default outro or end card.
+- Rebrand sweep: brand line, handles, thumbnails, end card, post copy. Grep for the old brand, then view the thumbnail.
+- Keep the voice-over and word timings unchanged. Gate failures it carries over (for example a long silence) go in the QA report with the timestamp; the decision to trim or accept is the person's.
+- If the look is not in the target yet, add a starter template and a design doc in the target's own conventions. Ask before adding catalog entries or editing shared instruction files.
+- Rewrite the brief and post copy into the target's formats.
+
 ## Red flags: stop and ask
 
 | Thought | Reality |
@@ -46,3 +56,7 @@ A longer cut of the same video: reuse the full voice-over, add beats, repeat fro
 - Muted text on a light card is unreadable: use the card's ink colour.
 - A joining word ("or") overlaps two cards: make it a small badge between them.
 - A fixed-length background ends before the video does: size it to the full length.
+- A recorded UI label contradicts the voice (for example a different voice name): cover it with a plain patch that matches the surrounding state. Never invent replacement text.
+- A reused voice-over fails a retention gate: report it at QA with the timestamp. Never trim it silently.
+- The old brand survives in a thumbnail or end card: grep for it and view the thumbnail before rendering.
+- The CLI stops resolving mid-session (for example `npx` after an update): run the cached binary directly and say so in the handover.
