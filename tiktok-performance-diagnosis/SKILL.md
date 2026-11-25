@@ -48,7 +48,33 @@ Diagnostic rules of thumb:
 - Correct suggestions the evidence contradicts (e.g. length is fine for storytelling).
 - New findings not in the original suggestions.
 - Revised 3 hooks, each tied to a winning pattern seen in CSI, examples written for the user's niche and only claims they can truly make.
+- Run every revised hook (and the account's current default hook) through the hook critique below before sending.
 - Don't name or copy other creators' videos in the user's content; describe patterns.
+
+## Hook critique (run on every hook you propose or keep)
+Adapted from the checklist and anti-patterns in vyralcontent/content-skills `viral-hooks` (MIT). Those are creator heuristics without data; when they conflict with the account's TikTok Studio numbers or CSI evidence, the numbers win and you say so.
+
+Core pass/fail (rewrite if any fails):
+- Spoken in ≤ 2 s (count words; Indonesian ≈ 3 words/s, so ≤ ~6–7 words).
+- Leads with the payoff or the stake, not setup, brand or a yes/no question the viewer can answer in their head.
+- Concrete noun, number or named stake in the first half.
+- The promise is true and the body pays it off. A first-person claim ("pakai sebulan") only if the creator really did it; otherwise it's bait-and-switch.
+
+Three layers, all pointing at the same idea:
+- **Visual** works on mute: frame 0 readable at a glance, real and moving. If the creator can't film it, the hook is at most one-third strong; say so.
+- **Verbal** works without the picture.
+- **On-screen text** 3–7 words that sharpen the spoken line, not repeat it; upper-third/center, clear of TikTok's bottom and right UI.
+
+Anti-patterns to name explicitly: welcome/logo/channel intro · vague tease · bait-and-switch · follow/subscribe ask before value · chronological story opener (fix: open on the most arresting moment, then walk back) · imperative command whose payoff doesn't earn it · cleverness that needs decoding · slow build-up (cut the first sentences) · hook that takes > 3 s to resolve · single-layer hook.
+
+Fast upgrades: add an odd, specific number · authority signal in the first half-second · name the exact viewer (e.g. price class) · cut the first three words · state the consensus, then break it.
+
+Also check and report:
+- **Font:** creator heuristic says custom brand fonts can read as an ad and TikTok's native font as native. Unproven; if the account uses a heavy custom look, propose an A/B on the cover text rather than a rule.
+- **Batch, not a line:** for a new idea, 6–10 hooks across ≥ 3 archetypes before the script. If no credible hook can be written, flag the idea (often: the creator can't film it), not the wording.
+- **Pattern:** if the same failure repeats across hooks (often the visual layer), name it as one habit.
+
+Output: table hook | verdict ✅/⚠️/❌ | which check failed or anti-pattern | rewrite (fixed version + one alternate).
 
 ## Phase 5 — Offer to persist
 Offer (don't do unasked): save the verification as a project doc, update the hook rules in the project instructions, and draft 3 test briefs — noting which require the user to record real footage.

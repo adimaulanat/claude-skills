@@ -13,7 +13,7 @@
 | [storyboard-to-video](storyboard-to-video/SKILL.md) | Someone gives a storyboard or scene-by-scene prompts plus a voice-over script and wants one narrated video drawn in code, with fact-checked claims |
 | [drafting-threads-overview](drafting-threads-overview/SKILL.md) | A finished video or project should get a Threads thread that walks through how it was made, with posts that can be quoted later; Claude drafts and fills the composer, the author posts |
 | [cafe-review-video](cafe-review-video/SKILL.md) | Someone has footage of a cafe or place plus its Google Maps link and wants a review Short/Reel/TikTok: researches TikTok Creator Search Insights and CapCut templates, writes the script and per-platform captions for approval, then renders the 9:16 video |
-| [tiktok-performance-diagnosis](tiktok-performance-diagnosis/SKILL.md) | A TikTok account's videos don't get views or hold viewers: reads TikTok Studio per-post retention, diagnoses the cause, proposes 3 niche hooks, then verifies every suggestion against viral videos in Creator Search Insights |
+| [tiktok-performance-diagnosis](tiktok-performance-diagnosis/SKILL.md) | A TikTok account's videos don't get views or hold viewers: reads TikTok Studio per-post retention, diagnoses the cause, proposes 3 niche hooks, then verifies every suggestion against viral videos in Creator Search Insights and critiques each hook (three layers, anti-patterns) |
 | [narrated-shorts](narrated-shorts/SKILL.md) | Making or revising a narrated vertical (9:16) Short, Reel or TikTok explainer in HyperFrames, or feedback on a render says a scene is dead, jumps at a cut or looks like AI slop |
 
 ## Install
