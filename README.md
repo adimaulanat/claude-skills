@@ -13,6 +13,7 @@
 | [storyboard-to-video](storyboard-to-video/SKILL.md) | Someone gives a storyboard or scene-by-scene prompts plus a voice-over script and wants one narrated video drawn in code, with fact-checked claims |
 | [drafting-threads-overview](drafting-threads-overview/SKILL.md) | A finished video or project should get a Threads thread that walks through how it was made, with posts that can be quoted later; Claude drafts and fills the composer, the author posts |
 | [cafe-review-video](cafe-review-video/SKILL.md) | Someone has footage of a cafe or place plus its Google Maps link and wants a review Short/Reel/TikTok: researches TikTok Creator Search Insights and CapCut templates, writes the script and per-platform captions for approval, then renders the 9:16 video |
+| [tiktok-performance-diagnosis](tiktok-performance-diagnosis/SKILL.md) | A TikTok account's videos don't get views or hold viewers: reads TikTok Studio per-post retention, diagnoses the cause, proposes 3 niche hooks, then verifies every suggestion against viral videos in Creator Search Insights |
 | [narrated-shorts](narrated-shorts/SKILL.md) | Making or revising a narrated vertical (9:16) Short, Reel or TikTok explainer in HyperFrames, or feedback on a render says a scene is dead, jumps at a cut or looks like AI slop |
 
 ## Install
@@ -27,6 +28,7 @@ ln -s ~/claude-skills/narrated-shorts ~/.claude/skills/narrated-shorts
 ln -s ~/claude-skills/storyboard-to-video ~/.claude/skills/storyboard-to-video
 ln -s ~/claude-skills/drafting-threads-overview ~/.claude/skills/drafting-threads-overview
 ln -s ~/claude-skills/cafe-review-video ~/.claude/skills/cafe-review-video
+ln -s ~/claude-skills/tiktok-performance-diagnosis ~/.claude/skills/tiktok-performance-diagnosis
 ```
 
 Start a new Claude Code session; the skill then shows up in the skill list.
@@ -35,7 +37,7 @@ Works with: Claude Code, HyperFrames, ElevenLabs or any TTS, optional Brandfetch
 
 ## How the skills work
 
-Skills here are generic. They never assume your tools, look, language or format: each one reads your project's own instruction files first and asks you about anything those files do not answer. For `mirroring-reference-video`, a project can make this faster by documenting its design system, scaffold and render commands, voice tool, and where raw and private media go. For `narrated-shorts`, document your look and design system, voice tool, checkpoints and QA gates; the skill adds the beats table, transition, audio and feedback rules from the HyperFrames prompting docs. For `storyboard-to-video`, document your voice tool, fact-check sources and visual QA gate; it fills the gap between a storyboard and the beats table and defers the build to `narrated-shorts`. For `drafting-threads-overview`, document your Threads account and voice, disclosure rules and the style doc; it asks for the rest, then drafts and fills the composer without posting. For `cafe-review-video`, the browser must be signed in to TikTok (Creator Search Insights) and the workspace needs ffmpeg with vidstab, Pillow, Poppins and Noto Color Emoji; document your account, platforms and copy rules. For `writing-platform-copy`, document your language and voice, banned phrases, link and affiliate rules, and where the copy file lives.
+Skills here are generic. They never assume your tools, look, language or format: each one reads your project's own instruction files first and asks you about anything those files do not answer. For `mirroring-reference-video`, a project can make this faster by documenting its design system, scaffold and render commands, voice tool, and where raw and private media go. For `narrated-shorts`, document your look and design system, voice tool, checkpoints and QA gates; the skill adds the beats table, transition, audio and feedback rules from the HyperFrames prompting docs. For `storyboard-to-video`, document your voice tool, fact-check sources and visual QA gate; it fills the gap between a storyboard and the beats table and defers the build to `narrated-shorts`. For `drafting-threads-overview`, document your Threads account and voice, disclosure rules and the style doc; it asks for the rest, then drafts and fills the composer without posting. For `cafe-review-video`, the browser must be signed in to TikTok (Creator Search Insights) and the workspace needs ffmpeg with vidstab, Pillow, Poppins and Noto Color Emoji; document your account, platforms and copy rules. For `tiktok-performance-diagnosis`, the browser must be signed in to the TikTok account (TikTok Studio and Creator Search Insights); document your niche, pillars and current hook rules so it can flag what its findings contradict. For `writing-platform-copy`, document your language and voice, banned phrases, link and affiliate rules, and where the copy file lives.
 
 ## License
 
